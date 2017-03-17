@@ -11,9 +11,9 @@ namespace ConsoleApplication4
         {
             double x, y;
             double toplama, cikartma, carpma, bolme;
-            Console.Write("1.Sayıyı Giriniz = ");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.Write("2 Sayıyı Giriniz = ");
+            Console.Write("1.SayÃ½yÃ½ Giriniz = ");
+            x = Convert.ToInt32(Console.ReadLine());//sdfsdfsdf
+            Console.Write("2 SayÃ½yÃ½ Giriniz = ");
             y = Convert.ToInt32(Console.ReadLine());
             toplama = x + y;
             cikartma = x - y;
@@ -23,7 +23,7 @@ namespace ConsoleApplication4
             Console.WriteLine(x + " - " + y + " = " + +cikartma);
             Console.WriteLine(x + " * " + y + " = " + +bolme);
             Console.WriteLine(x + " / " + y + " = " + +carpma);
-            Console.Write("Programdan Çıkmak İçin Enter'e Basınız");
+            Console.Write("Programdan Ã‡Ã½kmak ÃÃ§in Enter'e BasÃ½nÃ½z");
             Console.ReadKey();
         }
     }
